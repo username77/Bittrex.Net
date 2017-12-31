@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Bittrex.Net.Converters;
 using Newtonsoft.Json;
 
@@ -41,7 +41,7 @@ namespace Bittrex.Net.Objects
         /// <summary>
         /// The commission paid for the order
         /// </summary>
-        public decimal CommissionPaid { get; set; }
+        public decimal Commission { get; set; }
         /// <summary>
         /// The price of the order
         /// </summary>
@@ -53,11 +53,11 @@ namespace Bittrex.Net.Objects
         /// <summary>
         /// Timestamp when the order was opened
         /// </summary>
-        public DateTime Opened { get; set; }
+        public DateTime TimeStamp { get; set; }
         /// <summary>
         /// Timestamp when the order was closed
         /// </summary>
-        public DateTime? Closed { get; set; }
+        public DateTime Closed { get; set; }
         /// <summary>
         /// Whether the order is being canceled
         /// </summary>
